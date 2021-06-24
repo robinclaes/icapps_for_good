@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 import { Layout } from 'antd';
-import Profile from './layouts/Profile';
+import Interesses from './layouts/Interesses';
 
 const { Content } = Layout;
 function App() {
   return (
     <Layout>
       <Content style={{ padding: '24px' }}>
-        <Profile />
+        <Interesses />
       </Content>
     </Layout>
   );
