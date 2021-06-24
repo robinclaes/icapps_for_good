@@ -1,12 +1,16 @@
 import React from 'react';
 import './App.css';
+import { Layout } from 'antd';
 import Profile from './layouts/Profile';
 
+const { Content } = Layout;
 function App() {
   return (
-    <div className="App">
-      <Profile />
-    </div>
+    <Layout>
+      <Content style={{ padding: '24px' }}>
+        <Profile />
+      </Content>
+    </Layout>
   );
 }
 
