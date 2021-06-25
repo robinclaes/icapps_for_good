@@ -10,11 +10,17 @@ export default [
         avatar: 'https://i.pravatar.cc/300',
         title: 'Breuken vermenigvuldigen',
         description: 'Hoi, ik heb hulp nodig bij mijn huiswerk, ik ben niet zo goed in breuken vermenigvuldigen!',
+        tags: [
+          'Wiskunde', 'Huiswerk',
+        ],
       },
       {
         avatar: 'https://i.pravatar.cc/300?u=2',
         title: 'Gitaarlessen',
         description: 'Hallo, ik heb ben op zoek naar een leraar voor gitaarlessen.',
+        tags: [
+          'Muziek', 'Gitaarlessen',
+        ],
       },
     ],
   },

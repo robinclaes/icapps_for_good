@@ -19,5 +19,7 @@ module.exports = {
   ],
   rules: {
     'react/prop-types': 0,
+    'jsx-a11y/media-has-caption': 0,
+    'jsx-a11y/control-has-associated-label': 0,
   },
 };
